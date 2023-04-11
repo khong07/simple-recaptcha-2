@@ -12,7 +12,7 @@ export default function App() {
 
   React.useEffect(() => {
     if (recaptchaLoaded) {
-      var duration = Math.floor(Math.random() * 3) + 1; // b/w 1 and 3
+      var duration = Math.floor(Math.random() * 2) + 1; // b/w 1 and 2
       console.log("duration: ", duration);
       setTimeout(function () {
         setInputText("hello world");
