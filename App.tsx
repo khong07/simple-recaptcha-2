@@ -15,7 +15,7 @@ export default function App() {
       var duration = Math.floor(Math.random() * 2) + 1; // b/w 1 and 2
       console.log("duration: ", duration);
       setTimeout(function () {
-        setInputText("hello world");
+        setInputText(duration);
       }, duration * 1000);
     }
   }, [recaptchaLoaded]);
